@@ -1,6 +1,6 @@
 # Mon Projet IA
 
-Template de démarrage pour un projet d’intelligence artificielle avec PyTorch et Transformers.
+Projet de traducteur FR/EN via NLTK
 
 ## Environnement
 
@@ -14,5 +14,6 @@ pip install -r requirements.txt
 
 ## Utilisation
 
-- Lancer `main.py` pour exécuter le code.
+- Lancer `main_test.py` pour exécuter les modeles.
+- Lancer `main_train.py` pour entrainer les modeles.
 

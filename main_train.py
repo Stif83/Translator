@@ -1,5 +1,5 @@
 
-from nltk import IBMModel2
+from nltk import IBMModel2, IBMModel3
 
 from src.preprocessing import preprocess_data
 from src.alignment import aligned_sentences_fr_to_en, aligned_sentences_en_to_fr
@@ -23,9 +23,9 @@ def main():
     model_fr_en, model_en_fr = train_models_with_monitoring(
         aligned_fr_en,
         aligned_en_fr,
-        iterations=3,
+        iterations=10,
         subset_size=None,
-        model=IBMModel2
+        model=IBMModel3
     )
 
     print("✅ Entraînement terminé !")

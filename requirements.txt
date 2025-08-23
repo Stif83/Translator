@@ -1,0 +1,5 @@
+numpy
+nltk
+lxml
+bs4
+tqdm
